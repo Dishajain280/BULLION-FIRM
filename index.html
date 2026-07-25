@@ -210,12 +210,14 @@
 
     .hero-card {
       pointer-events: auto;
-      max-width: 580px;
+      /* max-width: 580px; */
+      max-width: 450px;
       background: var(--bg-card);
       backdrop-filter: blur(24px);
       -webkit-backdrop-filter: blur(24px);
       border: 1px solid var(--gold-border);
-      padding: 48px;
+      /* padding: 48px; */
+      padding: 30px;
       border-radius: 24px;
       box-shadow: 0 40px 80px rgba(0,0,0,0.7);
     }
@@ -236,7 +238,7 @@
 
     .hero-card h1 {
       font-family: var(--font-serif);
-      font-size: 3rem;
+      font-size: 1.9rem;
       line-height: 1.15;
       font-weight: 700;
       margin-bottom: 20px;
@@ -246,15 +248,15 @@
     }
 
     .hero-card p {
-      font-size: 1.1rem;
-      line-height: 1.7;
+      font-size: 0.9rem;
+      line-height: 1.5;
       color: var(--text-muted);
-      margin-bottom: 32px;
+      margin-bottom: 15px;
     }
 
     .hero-card .hero-actions {
       display: flex;
-      gap: 16px;
+      gap: 14px;
       flex-wrap: wrap;
     }
 
@@ -903,7 +905,7 @@
 
     @media (max-width: 768px) {
       nav { display: none; }
-      .hero-card h1 { font-size: 2.2rem; }
+      .hero-card h1 { font-size: 2rem; }
       .section-title { font-size: 2.2rem; }
       .cta-card h2 { font-size: 2.2rem; }
       .footer-grid { grid-template-columns: 1fr; }
